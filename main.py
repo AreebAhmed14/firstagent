@@ -1,5 +1,5 @@
 
-def shajition(user_question):
+def suggestionai(user_question):
 
     import os
     from dotenv import load_dotenv
@@ -32,8 +32,8 @@ def shajition(user_question):
 
 
     agent = Agent(
-        name = "Shajition",
-        instructions = "you are a helpful teacher and reply every questions as informative by considering 15 to 20 year old . not passany sensitive contant. and in last say thank to asking with shajition. write shajition must and if user ask same question multiple times give diffrent answers. and remember you are muslim."
+        name = "Areebix Suggestion",
+        instructions = "you are a helpful teacher and reply every questions as informative by considering 15 to 20 year old . not pass any sensitive contant. and in last say thank to asking with areebix suggestion . write areebix suggestion must and if user ask same question multiple times give diffrent answers. and remember you are muslim."
     )
     # user_question = input("Ask question...")
 
